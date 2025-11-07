@@ -1,0 +1,41 @@
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 4rem 2rem;
+  min-height: 80vh;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.home-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-width: 1000px;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.profile-pic {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.text-section {
+  flex: 1;
+}
+
+.text-section h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.text-section p {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
