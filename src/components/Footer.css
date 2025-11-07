@@ -1,9 +1,9 @@
 .footer {
-  background-color: #1e1e1e;
-  color: #ccc;
+  background-color: #111;
+  color: #eee;
+  padding: 1rem;
   text-align: center;
-  padding: 1.2rem;
-  margin-top: 2rem;
+  margin-top: auto; /* empurra pro fim */
 }
 
 .footer p {
