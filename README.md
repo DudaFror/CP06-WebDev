@@ -1,16 +1,65 @@
-# React + Vite
+# 🌙 Portfólio — CP06 Web Development
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Projeto desenvolvido como parte da avaliação **CP06** da disciplina de **Web Development** na **FIAP**.  
+O objetivo foi criar um **portfólio pessoal responsivo** utilizando **React + Vite**, apresentando meus projetos e formas de contato de maneira moderna e funcional.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tecnologias utilizadas
 
-## React Compiler
+- ⚛️ **React.js** — biblioteca principal para criação da interface  
+- ⚡ **Vite** — ferramenta de build rápida e otimizada  
+- 🎨 **CSS3** — estilização e responsividade  
+- 🌐 **React Router DOM** — gerenciamento de rotas e páginas  
+- ☁️ **Vercel** — hospedagem do projeto  
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🧩 Estrutura do projeto
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+├── 📁 public
+├── 📁 src
+│ ├── 📁 components
+│ │ ├── Navbar.jsx
+│ │ └── Footer.jsx
+│ ├── 📁 pages
+│ │ ├── Home.jsx
+│ │ ├── Projetos.jsx
+│ │ └── ProjetoDetalhe.jsx
+│ ├── App.jsx
+│ ├── main.jsx
+│ └── index.css
+├── package.json
+├── vercel.json
+└── README.md
+
+
+---
+
+## 🧭 Funcionalidades
+
+✅ Página inicial apresentando o portfólio  
+✅ Seção de **projetos**, com links e descrições  
+✅ Páginas dinâmicas para cada projeto  
+✅ Layout **totalmente responsivo**  
+✅ Navegação suave entre páginas com React Router  
+✅ Hospedagem na Vercel com build automatizado  
+
+---
+
+## 🛠️ Instalação e execução local
+
+Para rodar o projeto na sua máquina:
+
+```bash
+# Clone o repositório
+git clone https://github.com/DudaFror/CP06-WebDev.git
+
+# Entre na pasta do projeto
+cd CP06-WebDev
+
+# Instale as dependências
+npm install
+
+# Execute o projeto
+npm run dev
